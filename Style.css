@@ -1,1 +1,79 @@
 /* style */
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding:  0px 10px; */
+}
+.body>*{
+    /* border: rebeccapurple 2px solid; */
+    width: 100%;
+}
+.body > .toolBar{
+    text-align: center;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body > .toolBar > *{
+    /* border: lightsalmon 1px solid; */
+    border-collapse: separate;
+    
+    border-radius: 5px;
+    margin-left: 3rem;
+    font-weight: 900;
+    font-size: larger;
+    /* border: rebeccapurple 2px solid; */
+    padding: 1px 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body > .toolBar > *>*{
+    width: 10rem;
+    height: 2rem;
+}
+.body > .toolBar > *>:not(label){
+    width:3rem;
+    height: 2rem;
+}
+.body>.paintArea{
+
+        height: 89%;
+}
+input[type=number]::-webkit-inner-spin-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#size{
+    text-align: center;
+    font-size: 1.3rem;
+}
+#clearScr{
+    font-weight: 600;
+}
+
+/*                                                        TOOL BAR FINISHED                 */
+.paintArea{
+    width: 100%;
+    /* border:  2px solid red; */
+    height: 100%;
+}
+canvas{
+    border:  2px solid red;
+    /* width: 100%;
+    height: 100%; */
+}

@@ -9,3 +9,6 @@ The downloaded image has a transparent Background.
 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/76811812/128863438-78cb3b1f-0eb6-4144-bdea-543c6c9f6942.png)
+
+![Screenshot_1](https://github.com/MitanshGor/PaintApp/blob/main/Screenshot_1.png)
+

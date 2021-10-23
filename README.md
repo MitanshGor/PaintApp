@@ -12,3 +12,5 @@ The downloaded image has a transparent Background.
 
 ![Screenshot_1](https://github.com/MitanshGor/PaintApp/blob/main/Screenshot_1.png)
 
+![Screenshot_1](https://github.com/MitanshGor/PaintApp/blob/main/canvas-image%20(1).png)
+
